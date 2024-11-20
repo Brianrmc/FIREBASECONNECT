@@ -1,9 +1,7 @@
-<>//ingresar en el head del login.html
-  <script type="module" src="firebaseconect.js"></script>
-  <script type="module" src="login.js"></script></>
+<><script type="module" src="./firebaseconect.js"></script>
+<script type="module" src="./login.js"></script></>
 
-
-import { ManageAccount } from './firebaseconect.js';
+import { ManageAccount } from './firebaseconect';
 
 document.getElementById("formulario-sesion").addEventListener("submit", (event) => {
   event.preventDefault();
